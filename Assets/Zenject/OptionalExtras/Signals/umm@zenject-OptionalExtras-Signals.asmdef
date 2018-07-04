@@ -1,0 +1,10 @@
+{
+    "name": "umm@zenject-OptionalExtras-Signals",
+    "references": [
+        "umm@zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

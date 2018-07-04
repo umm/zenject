@@ -5,3 +5,7 @@ Plugins/
 Plugins.meta
 Tests/
 Tests.meta
+Zenject/OptionalExtras/
+Zenject/OptionalExtras.meta
+Zenject/Source/Zenject.csproj
+Zenject/Source/Zenject.csproj.meta

@@ -1,0 +1,13 @@
+{
+    "name": "umm@zenject-OptionalExtras-MemoryPoolMonitor-Editor",
+    "references": [
+        "umm@zenject",
+        "umm@zenject-Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
