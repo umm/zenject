@@ -2,9 +2,9 @@
   "name": "@umm/zenject",
   "version": "1.0.0",
   "description": "Dependency Injection Framework for Unity3D",
-  "homepage": "https://github.com/umm-projects/zenject",
+  "homepage": "https://github.com/umm/zenject",
   "bugs": {
-    "url": "https://github.com/umm-projects/zenject/issues"
+    "url": "https://github.com/umm/zenject/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -18,13 +18,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/zenject"
+    "url": "git@github.com:umm/zenject"
   },
   "files": [
     "Assets"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {}
 }

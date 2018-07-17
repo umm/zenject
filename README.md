@@ -11,7 +11,7 @@
 ## Install
 
 ```shell
-yarn add "umm-projects/zenject#^1.0.0"
+yarn add "umm/zenject#^1.0.0"
 ```
 
 ## Usage
