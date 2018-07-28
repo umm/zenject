@@ -1,7 +1,9 @@
 {
-    "name": "umm@zenject-Editor-Testing",
+    "name": "Zenject-TestFramework-Editor",
     "references": [
-        "umm@zenject"
+        "Zenject-TestFramework",
+        "Zenject-Editor",
+        "Zenject"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
