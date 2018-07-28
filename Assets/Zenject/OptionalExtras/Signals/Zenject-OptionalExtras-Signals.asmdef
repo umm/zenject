@@ -1,7 +1,7 @@
 {
-    "name": "umm@zenject-OptionalExtras-Signals",
+    "name": "Zenject-OptionalExtras-Signals",
     "references": [
-        "umm@zenject"
+        "Zenject"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
