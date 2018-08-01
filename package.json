@@ -24,6 +24,7 @@
     "Assets"
   ],
   "dependencies": {
+    "@umm/moq": "umm/moq#^1.0.0",
     "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {}
