@@ -6,6 +6,9 @@ Plugins.meta
 Tests/
 Tests.meta
 Zenject/OptionalExtras/
-Zenject/OptionalExtras.meta
+!Zenject/OptionalExtras/Editor/Zenject-OptionalExtras-Editor.asmdef
+!Zenject/OptionalExtras/Editor/Zenject-OptionalExtras-Editor.asmdef.meta
+!Zenject/OptionalExtras/Editor/ZenjectMoqExtensions.cs
+!Zenject/OptionalExtras/Editor/ZenjectMoqExtensions.cs.meta
 Zenject/Source/Zenject.csproj
 Zenject/Source/Zenject.csproj.meta
