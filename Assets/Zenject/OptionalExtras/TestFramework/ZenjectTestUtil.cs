@@ -1,6 +1,6 @@
+using ModestTree;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using ModestTree;
 
 namespace Zenject.Internal
 {
@@ -35,11 +35,11 @@ namespace Zenject.Internal
                     {
                         if (immediate)
                         {
-                            GameObject.Destroy(rootObj);
+                            GameObject.DestroyImmediate(rootObj);
                         }
                         else
                         {
-                            GameObject.DestroyImmediate(rootObj);
+                            GameObject.Destroy(rootObj);
                         }
                     }
                 }
