@@ -54,11 +54,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Internal\Binders\BindSignal\BindSignalFromBinder.cs" />
+    <Compile Include="Internal\Binders\BindSignal\BindSignalIdToBinder.cs" />
     <Compile Include="Internal\Binders\BindSignal\BindSignalToBinder.cs" />
     <Compile Include="Internal\Binders\BindSignal\SignalCallbackWithLookupWrapper.cs" />
     <Compile Include="Internal\Binders\BindSignal\SignalCallbackWrapper.cs" />
     <Compile Include="Internal\Binders\DeclareSignal\DeclareSignalAsyncTickPriorityCopyBinder.cs" />
+    <Compile Include="Internal\Binders\DeclareSignal\DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.cs" />
     <Compile Include="Internal\Binders\DeclareSignal\DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder.cs" />
+    <Compile Include="Internal\Binders\DeclareSignal\SignalBindingBindInfo.cs" />
     <Compile Include="Internal\Binders\DeclareSignal\SignalDeclarationBindInfo.cs" />
     <Compile Include="Internal\Binders\SignalCopyBinder.cs" />
     <Compile Include="Internal\Binders\SignalExtensions.cs" />
