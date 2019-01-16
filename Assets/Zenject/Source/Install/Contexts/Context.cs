@@ -109,7 +109,11 @@ namespace Zenject
                 Assert.IsNotNull(installer, "Found null installer in Context '{0}'", name);
 
 #if UNITY_EDITOR
+#if UNITY_2018_3_OR_NEWER
+                Assert.That(PrefabUtility.GetPrefabAssetType(installer.gameObject) == PrefabAssetType.NotAPrefab,
+#else
                 Assert.That(PrefabUtility.GetPrefabType(installer.gameObject) != PrefabType.Prefab,
+#endif
                     "Found prefab with name '{0}' in the Installer property of Context '{1}'.  You should use the property 'InstallerPrefabs' for this instead.", installer.name, name);
 #endif
             }
