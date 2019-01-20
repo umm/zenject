@@ -1,6 +1,6 @@
 {
   "name": "@umm/zenject",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "Dependency Injection Framework for Unity3D",
   "homepage": "https://github.com/umm/zenject",
   "bugs": {
